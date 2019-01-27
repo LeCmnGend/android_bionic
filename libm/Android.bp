@@ -511,6 +511,7 @@ cc_library {
         "-Wno-unused-variable",
         "-ffp-contract=fast",
         "-O3",
+        "-ffp-contract=fast",
     ],
 
     ldflags: [
