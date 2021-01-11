@@ -42,10 +42,6 @@
 #define ESTIMATED_LINELEN	32
 #define HCFILE_ALLOC_SIZE	256
 
-/* From sethostent.c */
-#define ALIGNBYTES	(sizeof(uintptr_t) - 1)
-#define ALIGN(p)	(((uintptr_t)(p) + ALIGNBYTES) &~ ALIGNBYTES)
-
 /*
  * Host cache entry for hcfile.c_data.
  * Offsets are into hcfile.h_data.
